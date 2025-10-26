@@ -17,9 +17,9 @@ Copy code
 ./log-archive.sh /var/log
 The script will:
 
-Compress all logs into a .tar.gz file
+2. Compress all logs into a .tar.gz file
 
-Save it inside a new folder called archives
+3. Save it inside a new folder called archives
 
 Record the date and time in a file called log_archive_history.log
 
@@ -31,4 +31,3 @@ Compressing logs from: /var/log
 ✅ Logs archived successfully: ./archives/logs_archive_20251027_120500.tar.gz
 📜 Archive log updated at: ./archives/log_archive_history.log
 Done!
->>>>>>> 8e197e8 (Add README with instructions)
